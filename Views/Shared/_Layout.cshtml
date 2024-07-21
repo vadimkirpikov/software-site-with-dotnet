@@ -1,0 +1,84 @@
+﻿@{
+    var theName = "PROGVIBE";
+}
+<!DOCTYPE html>
+<html lang="en-ru">
+<head>
+    <title>@ViewBag.Title</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content='@ViewBag.Description'>
+    <meta name="keywords" content='@ViewBag.KeyWords'>
+    <link rel="stylesheet" href="~/staticfiles1/staticfiles2/css/style.css"/>
+    <link rel="icon" href="~/staticfiles1/staticfiles2/css/icons/favicon.png" type="image/png"/>
+    <link rel="shortcut icon" href="~/staticfiles1/staticfiles2/css/icons/favicon.png" type="image/png"/>
+    <link rel="stylesheet" href="~/staticfiles1/staticfiles2/css/dark.css" id="dark-theme">
+    <link rel="stylesheet" href="~/staticfiles1/staticfiles2/css/light.css" id="light-theme">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="~/staticfiles1/staticfiles2/js/clipboard.min.js"></script>
+    <script src="~/staticfiles1/staticfiles2/js/dom.js"></script>
+    <!-- Yandex.RTB -->
+    <script>window.yaContextCb=window.yaContextCb||[]</script>
+    <script src="https://yandex.ru/ads/system/context.js" async></script>
+    <script>loadTheme()</script>
+</head>
+<body>
+<header style="display: flex; justify-content: space-between">
+    <div style="display: flex;">
+        @{
+                if (ViewBag.IsTutorial)
+                {
+                    <button id="menu-button" class="menu-button" onclick="showVerticalMenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                }
+                <a href="/" class="header">@theName</a>
+            }
+    </div>
+    <button class="theme-switcher" onclick="switchTheme()" style="display: block; width: 50px"></button>
+</header>
+<main class="main-content">
+    @{
+        if (ViewBag.IsTutorial)
+        {
+            <aside class="vertical-menu-content" id="vertical-menu">
+                @{
+                    var currentChapter = 0;
+                    foreach (var tutorial in ViewBag.Tutorials)
+                    {
+                        if (currentChapter != tutorial.ChapterId)
+                        {
+                            currentChapter = tutorial.ChapterId;
+                            <div class="chapter">
+                                <b>@ViewBag.Chapters[currentChapter]</b>
+                            </div>
+                        }
+                        <a id=@tutorial.Id class="item" href=@tutorial.Url>
+                            <b>@tutorial.Title</b>
+                        </a>
+                    }
+                }
+            </aside>
+        }
+    }
+    <aside class="adv-side">
+
+    </aside>
+    <article class="main-content-text">
+        @RenderBody()
+        <script>setAdv()</script>
+    </article>
+    <aside class="adv-side">
+    </aside>
+</main>
+<script>setClipboardButton()</script>
+<footer>
+    <p>
+        <a href="https://t.me/+qce_aMn5dRk1NGIy">Телеграм</a>
+    </p>
+    <p>&copy; 2024 PROGVIBE.RU Все права защищены</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,111 @@
+﻿@import "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.css";
+body {
+    background-color: #0d1117;
+    color: white;
+}
+header{
+    border-bottom: 2px solid white;
+    color:white;
+    background-color: #0d1117;
+}
+code::-webkit-scrollbar-track {
+    background: transparent;
+}
+code::-webkit-scrollbar-thumb {
+    background-color: white;
+}
+.menu-button {
+    background-color: #0d1117;
+}
+.menu-button span {
+    background-color: white;
+}
+.vertical-menu-content{
+    background-color:#0d1117;
+    border-color: white;
+}
+.item{
+    background-color: #555555;
+    color: white;
+}
+.item:hover{
+    background-color: darkslateblue;
+    color: white;
+}
+table{
+    border: 2px solid white;
+}
+td, th{
+    border: 3px solid white;
+    padding: 3px;
+}
+code {
+    color: white;
+}
+.selected {
+    background-color: darkslateblue;
+    color: white;
+}
+
+.copy-button {
+    background-color: white;
+    color: #0d1117;
+    border: none;
+}
+pre {
+    border:2px solid white;
+}
+#hero {
+    color: white;
+}
+.tutorial {
+    background-color: darkslateblue;
+}
+.theme-switcher {
+    background-image: url("icons/theme-switch-dark.svg");
+}
+.theme-switcher:hover {
+    background-image: url("icons/theme-switch-dark-hover.svg");
+}
+a {
+    color: lightblue;
+}
+.card {
+    background-color: #e6f7ff; /* Светло-голубой фон карточки */
+    color: #333; /* Темный текст */
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgb(255, 255, 255); /* Более сильная тень */
+}
+
+.card-title {
+    color: #003366; /* Темно-синий цвет заголовка */
+}
+
+.card-description {
+    color: #666; /* Серый цвет описания */
+}
+
+.card-button {
+    background-color: gray; /* Насыщенный синий фон кнопки */
+    color: #fff; /* Белый текст */
+    padding: 10px 20px;
+}
+
+.card-button:hover {
+    background-color: #0d1117; /* Темно-синий фон при наведении */
+    transform: scale(1.05); /* Увеличение кнопки при наведении */
+}
+.navigation-panel a, .sub-navigation-panel a {
+    background-color: white;
+    color: #0d1117;
+}
+header a {
+    color: white;
+}
+@media (hover: none) {
+    .theme-switcher:active {
+        background-image: url("icons/theme-switch-dark-hover.svg");
+    }
+}

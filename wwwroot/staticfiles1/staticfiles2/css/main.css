@@ -1,0 +1,54 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+#hero {
+    text-align: center;
+}
+
+#tutorials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.card {
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px; /* Закругленные углы */
+    transition: transform 0.2s, box-shadow 0.2s; /* Анимация */
+    width: 250px; /* Фиксированная ширина карточки */
+    text-align: center; /* Центрирование текста */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card:hover {
+    transform: translateY(-5px); /* Небольшое движение вверх */
+}
+.card-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Закругленные углы кнопки */
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s; /* Анимация изменения цвета */
+    text-transform: uppercase; /* Верхний регистр текста кнопки */
+    font-weight: bold; /* Жирный шрифт кнопки */
+    text-decoration: none;
+}
+
+.card-button:hover {
+    transform: scale(1.05); /* Увеличение кнопки при наведении */
+}

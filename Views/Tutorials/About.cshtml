@@ -1,0 +1,35 @@
+﻿@using Microsoft.AspNetCore.Html
+@{
+    HtmlString PageSwap()
+    {
+        string res = "<nav class='navigation-panel'>";
+        if (!ViewBag.BackLink.Equals("invalid"))
+        {
+            res += $"<a href='{ViewBag.BackLink}'>НАЗАД</a>";
+        }
+        res += $"<nav class='sub-navigation-panel'><a href='/'>ГЛАВНАЯ</a><a href={"/"+ViewBag.Paragraph}>РАЗДЕЛ</a></nav>";
+        if (!ViewBag.ForwardLink.Equals("invalid"))
+        {
+            res += $"<a href='{ViewBag.ForwardLink}'>ДАЛЕЕ</a>";
+        }
+        res += "</nav>";
+        return new HtmlString(res);
+    }
+}
+<script>makeMark(@ViewBag.Tutorial.Id)</script>
+@PageSwap()
+<h2>@ViewBag.Tutorial.Title</h2>
+@(new HtmlString(ViewBag.Tutorial.Text))
+<div>
+<!-- Yandex.RTB R-A-10026114-4 -->
+<div id="yandex_rtb_R-A-10026114-4"></div>
+<script>
+window.yaContextCb.push(()=>{
+	Ya.Context.AdvManager.render({
+		"blockId": "R-A-10026114-4",
+		"renderTo": "yandex_rtb_R-A-10026114-4"
+	})
+})
+</script>
+</div>
+@PageSwap()

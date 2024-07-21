@@ -1,0 +1,36 @@
+﻿@using test1.Models
+@model IEnumerable<IDescription>
+
+<link rel="stylesheet" href="~/staticfiles1/staticfiles2/css/main.css"/>
+<section id="hero">
+    <h2>Туториалы по программированию</h2>
+    <p>Изучайте программирование с нашими удобными и информативными туториалами.</p>
+</section>
+<section id="tutorials">
+    @{
+        var index = 0;
+        foreach (var sect in Model)
+        {
+            if (index == 3)
+            {
+                <!-- Yandex.RTB R-A-10026114-6 -->
+                <div id="yandex_rtb_R-A-10026114-6"></div>
+                <script>
+                    window.yaContextCb.push(()=>{
+                        Ya.Context.AdvManager.render({
+                            "blockId": "R-A-10026114-6",
+                            "renderTo": "yandex_rtb_R-A-10026114-6"
+                        })
+                    })
+                </script>
+            }
+
+            <div class="card">
+                <h1 class="card-title">@sect.Title</h1>
+                <div class="card-description">@sect.Preview</div>
+                <a class="card-button" href="@sect.Url">Начать изучение</a>
+            </div>
+        }
+    }
+
+</section>

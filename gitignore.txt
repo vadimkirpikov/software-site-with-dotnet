@@ -1,0 +1,8 @@
+﻿/mysql/
+.vs/
+bin/
+obj/
+*.user
+*.suo
+.idea/
+*.sln.iml

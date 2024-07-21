@@ -1,0 +1,125 @@
+{
+  "Files": [
+    {
+      "Id": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\mysite\\wwwroot\\staticfiles1\\staticfiles2\\css\\dark.css",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\dark.css"
+    },
+    {
+      "Id": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\mysite\\wwwroot\\staticfiles1\\staticfiles2\\css\\fonts\\JetBrainsMono-Bold.ttf",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\fonts\\JetBrainsMono-Bold.ttf"
+    },
+    {
+      "Id": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\mysite\\wwwroot\\staticfiles1\\staticfiles2\\css\\fonts\\JetBrainsMono-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\fonts\\JetBrainsMono-ExtraLight.ttf"
+    },
+    {
+      "Id": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\mysite\\wwwroot\\staticfiles1\\staticfiles2\\css\\fonts\\JetBrainsMono-Regular.ttf",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\fonts\\JetBrainsMono-Regular.ttf"
+    },
+    {
+      "Id": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\mysite\\wwwroot\\staticfiles1\\staticfiles2\\css\\fonts\\RobotoMono-Bold.ttf",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\fonts\\RobotoMono-Bold.ttf"
+    },
+    {
+      "Id": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\mysite\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\Hamburger_icon.svg.png",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\icons\\Hamburger_icon.svg.png"
+    },
+    {
+      "Id": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\mysite\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\favicon.png",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\icons\\favicon.png"
+    },
+    {
+      "Id": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\mysite\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\mainicon.png",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\icons\\mainicon.png"
+    },
+    {
+      "Id": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\mysite\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\telegram-dark-hover.svg",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\icons\\telegram-dark-hover.svg"
+    },
+    {
+      "Id": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\mysite\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\telegram-dark.svg",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\icons\\telegram-dark.svg"
+    },
+    {
+      "Id": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\mysite\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\telegram-light-hover.svg",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\icons\\telegram-light-hover.svg"
+    },
+    {
+      "Id": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\mysite\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\telegram-light.svg",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\icons\\telegram-light.svg"
+    },
+    {
+      "Id": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\mysite\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\theme-switch-dark-hover.svg",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\icons\\theme-switch-dark-hover.svg"
+    },
+    {
+      "Id": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\mysite\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\theme-switch-dark.svg",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\icons\\theme-switch-dark.svg"
+    },
+    {
+      "Id": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\mysite\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\theme-switch-light-hover.svg",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\icons\\theme-switch-light-hover.svg"
+    },
+    {
+      "Id": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\mysite\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\theme-switch-light.svg",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\icons\\theme-switch-light.svg"
+    },
+    {
+      "Id": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\mysite\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\vk-dark-hover.svg",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\icons\\vk-dark-hover.svg"
+    },
+    {
+      "Id": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\mysite\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\vk-dark.svg",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\icons\\vk-dark.svg"
+    },
+    {
+      "Id": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\mysite\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\vk-light-hover.svg",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\icons\\vk-light-hover.svg"
+    },
+    {
+      "Id": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\mysite\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\vk-light.svg",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\icons\\vk-light.svg"
+    },
+    {
+      "Id": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\mysite\\wwwroot\\staticfiles1\\staticfiles2\\css\\light.css",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\light.css"
+    },
+    {
+      "Id": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\mysite\\wwwroot\\staticfiles1\\staticfiles2\\css\\main.css",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\main.css"
+    },
+    {
+      "Id": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\mysite\\wwwroot\\staticfiles1\\staticfiles2\\css\\style.css",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\style.css"
+    },
+    {
+      "Id": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\mysite\\wwwroot\\staticfiles1\\staticfiles2\\js\\clipboard.js",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\js\\clipboard.js"
+    },
+    {
+      "Id": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\mysite\\wwwroot\\staticfiles1\\staticfiles2\\js\\clipboard.min.js",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\js\\clipboard.min.js"
+    },
+    {
+      "Id": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\mysite\\wwwroot\\staticfiles1\\staticfiles2\\js\\dom.js",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\js\\dom.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.test1.props",
+      "PackagePath": "build\\test1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.test1.props",
+      "PackagePath": "buildMultiTargeting\\test1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.test1.props",
+      "PackagePath": "buildTransitive\\test1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.test1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
