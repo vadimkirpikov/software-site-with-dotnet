@@ -1,7 +1,15 @@
 ## About the Site
 ---
 Welcome to our programming website, dedicated to modern web technologies and development! We offer a variety of resources and guides for developers of all levels, from beginners to seasoned professionals.
-![Main page](https://ibb.co/rZCXD4C)
+
+### Main page of the site
+![image.png](https://i.postimg.cc/tTLJCFJ2/image.png)
+
+### Example
+![image1.png](https://i.postimg.cc/25ySQ0B0/image.png)
+
+### Example with using dark theme
+![image2.png](https://i.postimg.cc/bNwWN4XV/image.png)
 
 ### What We Use:
 ---
