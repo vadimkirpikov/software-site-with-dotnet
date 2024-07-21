@@ -1,6 +1,7 @@
 ## About the Site
 ---
 Welcome to our programming website, dedicated to modern web technologies and development! We offer a variety of resources and guides for developers of all levels, from beginners to seasoned professionals.
+![Main page](https://ibb.co/rZCXD4C)
 
 ### What We Use:
 ---
